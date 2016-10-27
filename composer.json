@@ -1,0 +1,23 @@
+{
+  "name": "phprest/phprest-sample-project",
+  "description": "Phprest Sample Project.",
+  "keywords": ["phprest", "rest", "restful", "framework"],
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Adam Balogh",
+      "email": "baloghbh@gmail.com"
+    }
+  ],
+  "require": {
+    "phprest/phprest": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Company\\": "app"
+    }
+  },
+  "minimum-stability" : "dev",
+  "prefer-stable" : true
+}
